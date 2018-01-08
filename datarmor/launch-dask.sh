@@ -3,10 +3,10 @@ set -e
 
 # Usage:
 #   bash
-#   source activate pangeo
+#   source activate obidam
 #   ./launch-dask.sh 4 
 
-source activate pangeo
+source activate obidam
 
 # create a directory to store temporary dask data
 mkdir -p $DATAWORK/dask 

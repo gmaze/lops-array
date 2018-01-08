@@ -12,7 +12,7 @@
 # >>> client = Client(scheduler_file='~/dask/scheduler.json')
 
 # Setup Environment
-setenv PATH ${HOME}/.miniconda3/envs/pangeo/bin:${PATH}
+setenv PATH /appli/anaconda/2.7/envs/obidam/bin:${PATH}
 
 setenv SCHEDULER ${DATAWORK}/dask/scheduler.json
 rm -f ${SCHEDULER}

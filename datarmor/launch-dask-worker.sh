@@ -7,7 +7,7 @@
 #PBS -m abe
 
 # Setup Environment
-setenv PATH ${HOME}/.miniconda3/envs/pangeo/bin:${PATH}
+setenv PATH /appli/anaconda/2.7/envs/obidam/bin:${PATH}
 
 # Setup dask worker
 setenv SCHEDULER ${DATAWORK}/dask/scheduler.json
